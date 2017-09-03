@@ -1,0 +1,146 @@
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	background: #CAC8C8;
+	padding: 60px;
+}
+.conteiner {
+	background: white;
+}
+.img_top {
+	width: 100%;
+}
+p {
+	font-family: Arial;
+	font-size: 18px;
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 30px;
+}
+span {
+	font-weight: bold;
+}
+.topic {
+	text-align: center;
+	margin-top: 40px;
+}
+.img_arm {
+	width: 290px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.img_lips {
+	width: 290px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.tex_arm {
+	width: 290px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+	margin: 30px 0px 30px 40px;
+}
+.tex_lips {
+	width: 290px;
+	height: 60px;
+	display: inline-block;
+	float: right;
+	margin: 30px 40px 30px 0px;
+}
+.clic {
+	background-color: #CC4E4E;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	width: 290px;
+	height: 40px;
+	margin-left: 40px;
+	float: left;
+	border-radius: 10px;
+	border: 0px;
+}
+.img_heart {
+	width: 180px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.img_back {
+	width: 180px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.img_body {
+	width: 180px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.tex_heart {
+	width: 180px;
+	height: 120px;
+	display: inline-block;
+	float: left;
+	margin: 30px 0px 30px 45px;
+}
+.tex_back {
+	width: 180px;
+	height: 120px;
+	display: inline-block;
+	float: left;
+	margin: 30px 0px 30px 40px;
+}
+.tex_body {
+	width: 180px;
+	height: 120px;
+	display: inline-block;
+	float: right;
+	margin: 30px 40px 30px 0px;
+}
+.admin {
+	font-style: italic;
+}
+.clic_mini {
+	background-color: #CC4E4E;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	width: 180px;
+	height: 40px;
+	margin: 0px 0px 30px 40px;
+	float: left;
+	border-radius: 10px;
+	border: 0px;
+	display: inline-block;
+	padding: 0px;
+}
+.clic_max {
+	background-color: #CC4E4E;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	width: 620px;
+	height: 40px;
+	margin: 30px 0px 30px 40px;
+	border-radius: 10px;
+	border: 0px;
+	display: inline-block;
+	padding: 0px;
+}
+.tex-and {
+	width: 450px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 50px;
+	margin: auto;
+}
+.non {
+	color: white;
+}

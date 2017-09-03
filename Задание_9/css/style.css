@@ -1,0 +1,28 @@
+.wrapper {
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	background: #75c6bf;
+}
+.clouds {
+	position: absolute;
+	top: 0px;
+	left: 620px;
+	z-index: 2
+}
+.water {
+	position: absolute;
+	top: 458px;
+	z-index: 2
+}
+.wooden {
+	position: absolute;
+	top: 365px;
+	left: 400px;
+	z-index: 1
+
+}
+.world {
+	position: absolute;
+	top: 130px;
+}
