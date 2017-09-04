@@ -5,12 +5,13 @@
     font-style: normal;
 }
 body {
-	margin: 0px;
-	font-family: 'Helvetica Neue', Arial;
+	margin: 0;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .wrapper {
     width: 100%;
 	background: #193c5a;
+	overflow: hidden;
 }
 .header-top {
 	width: 970px;
@@ -35,20 +36,21 @@ body {
 }
 .wrap {
 	background: #e3ecf1;
+	overflow: hidden;
 }
-.conteiner {
+.container {
 	width: 970px;
 	margin-right: auto;
     margin-left: auto;
 }
 .main {
-	margin-top: 0px;
+	margin-top: 0;
 	width: 675px;
-	height: 517px;
 	padding: 40px;
     font-size: 25px;
     line-height: 50px;
 	float: left;
+	margin: 0;
 	text-align: justify;
 	background: #CED7DC;
 }
@@ -58,9 +60,8 @@ body {
 .footer {
 	background: #193c5a;
 }
-.futer {
+.contacts-footer {
 	width: 970px;
-	clear: both;
 	margin-right: auto;
     margin-left: auto;
 	font-size: 18px;
@@ -69,7 +70,12 @@ body {
     color: white;
     font-weight: both;
 }
-.dec {
+.contacts_header {
 	border-bottom: 4px solid #E19A9A;
     padding-bottom: 15px;
+}
+.contacts_tel {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
 }

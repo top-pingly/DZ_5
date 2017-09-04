@@ -5,24 +5,23 @@
 	background: #75c6bf;
 }
 .clouds {
-	position: absolute;
+	position: relative;
 	top: 0px;
-	left: 620px;
-	z-index: 2
-}
-.water {
-	position: absolute;
-	top: 458px;
+	left: 220px;
 	z-index: 2
 }
 .wooden {
-	position: absolute;
-	top: 365px;
-	left: 400px;
+	position: relative;
+	top: 190px;
+	left: 40px;
 	z-index: 1
-
+}
+.water {
+	position: relative;
+	top: 338px;
+	z-index: 2
 }
 .world {
-	position: absolute;
-	top: 130px;
+	position: relative;
+	top: -130px;
 }
