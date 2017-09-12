@@ -1,0 +1,98 @@
+header {
+	width: 900px;
+	margin: auto;
+	font-family: Arial;
+}
+.tab-1 {
+	border-collapse: collapse;
+	text-align: center;
+	border: 1px solid black;
+}
+.td-1, .th-1 {
+	border: 1px solid black;
+}
+.td-1:first-child {
+	text-align: left;
+}
+.tab-2, .tab-3 {
+	width: 500px;
+	height: 30px;
+	border-collapse: collapse;
+	background: #FAF3FA;
+}
+.th-2, .th-3 {
+	text-align: left;
+	border-bottom: 1px solid #C6C6C6;
+	padding: 8px;
+}
+.td-2 {
+	border-bottom: none;
+}
+.table_price {
+	background: #F4EEF6;
+	text-align: left;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0 0 8px 4px #B9B9B9;
+	width: 700px;
+	height: 400px;
+}
+.choice, .del {
+	display: inline-block;
+  	padding: 5px 10px;
+  	background: red;
+  	position: relative;
+  	color: white;
+  	font-weight: bold;
+  	text-decoration: none;
+}
+.clic, .clic-1 {
+	width: 20px;
+	padding: 8px 1px;
+}
+.non-border, .clic-1 {
+	border-bottom: none;
+}
+.table_price th, td {
+	border-bottom: 1px solid #C6C6C6;
+	padding: 8px;
+}
+.nontex {
+	border-bottom: none;
+}
+.tex1, .tex2, .tex3  {
+	font-weight: bold;
+	border-bottom: none;
+}
+.tex2 {
+	color: #888888;
+}
+.basket {
+	border-bottom: none;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+.tex3 {
+	text-align: center;
+}
+.pop-block {
+	display: inline-block;
+	position: relative;
+}
+.close-block {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	width: 23px;
+	border: 2px solid white;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 21px;
+	border-radius: 60%;
+	box-shadow: 0 0 2px 2px #888888; 
+	text-align: center;
+}
